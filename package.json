@@ -1,0 +1,32 @@
+{
+  "name": "storybook-react-16",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build-storybook -c .storybook-fails",
+    "build:works": "build-storybook -c .storybook-works",
+    "build:18571": "build-storybook -c .storybook-works-18571"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "6.5.9",
+    "@storybook/addon-essentials": "6.5.9",
+    "@storybook/addon-interactions": "6.5.9",
+    "@storybook/addon-a11y": "6.5.9",
+    "@storybook/addon-links": "6.5.9",
+    "@storybook/builder-webpack5": "6.5.9",
+    "@storybook/manager-webpack5": "6.5.9",
+    "@storybook/react": "6.5.9",
+    "typescript": "^4.7.3",
+    "@storybook/testing-library": "^0.0.13",
+    "webpack": "^5.73.0"
+  }
+}
