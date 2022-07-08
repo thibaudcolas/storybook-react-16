@@ -1,6 +1,6 @@
-# storybook-react-16-addons
+# storybook-react-16
 
-Reproduction case for a React < 18 issue with Storybook v6.5.9.
+Reproduction case for a React < 18 issue with Storybook v6.5.9: <https://github.com/storybookjs/storybook/issues/18662>.
 
 Error message:
 
